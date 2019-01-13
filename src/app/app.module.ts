@@ -6,12 +6,14 @@ import { GitSearchService } from './git-search.service';
 import { GitSearchComponent } from './git-search/git-search.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomePageComponent } from './home-page/home-page.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GitSearchComponent,
-    HomePageComponent
+    HomePageComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
