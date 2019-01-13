@@ -12,11 +12,13 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(){
+    /*
 this.GitSearchService.gitSearch('angular').then((response) => {
   alert("Total libraries:" + response.total_count);
 }, (error) => {
   alert("Error" + error.statusText)
 })
+*/
   }
   title = 'angular-Oleg';
 }
